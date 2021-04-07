@@ -1,5 +1,5 @@
 const Product = require("../models/product");
-const jwt = require("jsonWebToken");
+const jwt = require("jsonwebtoken");
 
 module.exports.getProductByVendor = async (req, res) => {
   try {
